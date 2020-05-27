@@ -7,6 +7,18 @@
 
 <h1>Index</h1>
 
+<div class="text-center">
+    <h1 class="display-4">Read From Enum</h1>
+
+    <select class="form-control border-warning" style="font-size:12px"
+            asp-items="Html.GetEnumSelectList<IsolationType>()">
+        <option value="">Isolation Type</option>
+    </select>
+
+</div>
+
+<hr />
+
 <p>
     <a asp-page="Create">Create New</a>
 </p>
