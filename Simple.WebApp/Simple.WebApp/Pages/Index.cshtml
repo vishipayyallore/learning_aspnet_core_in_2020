@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <select class="form-control border-warning" style="font-size:12px" 
+            asp-items="Html.GetEnumSelectList<IsolationType>()">
+        <option value="">Isolation Type</option>
+    </select>
+</div>
