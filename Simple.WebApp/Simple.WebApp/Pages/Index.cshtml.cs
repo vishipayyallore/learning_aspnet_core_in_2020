@@ -9,11 +9,7 @@ using Microsoft.Extensions.Logging;
 namespace Simple.WebApp.Pages
 {
 
-    public enum IsolationType
-    {
-        Mechanical = 1,
-        Electrical = 2
-    }
+    
 
     public class IndexModel : PageModel
     {
